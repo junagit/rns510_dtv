@@ -1,0 +1,29 @@
+21/01/2014 
+Zmiana w Klasie QMostInterface.
+Zmiana zmiennej most_serial i data_temp ze wskaźnika na zmienne statyczne.
+Dodanie zmiennej most_ready_flag ustawiana gdy gdy zostanie wykryta obecność interfejsu MOST.
+Jeżeli ta zmienna jest flase(MOST nie wykryty),wszystkie funkcje służące do wysyłania danych do 
+MOST są pomijane.
+
+22/01/2014
+Dodanie klasy QMenuInfoWindow wyświetlającej informacje o oprogramowaniu.
+
+Zmiana w klasie QTvServiceManager. Zaznaczanie i odznaczanie stacji za pomocą przycisków na pilocie lewo/prawo. i przy
+nie wybranej pozycji na liscie za pomocą klawisza OK.
+Po nacisnięciu OK zamiana opsiów na legendzie OK-SELECT na OK-DESELECT is <> EN/DIS na MOVE mozliwe tylko 
+przesuwanie pozycji.
+
+23/01/2014
+Zmiana w sposobie skalowania ekranu.
+Rozciąganie ekranu na wysowkość realizowane jest teraz za pomocą zmian 
+ustawień modułu LCDC - zmiana rozdzielczości H.
+24/01/2014
+Przeniesienie menu QMenuInfoWindow z menu głównego do OTHER OPTIONS.
+Zmiana sposobu działania callback'a od wyboru języka w klasie QOtherOptWindow - 
+usówane jest całe dotychczasowe okno i tworzone nowe.
+
+31/01/2014
+Zmiana w bibliotece gstreamer'a,plugin mpegtsdemux,funkcja gst_mpegts_demux_parse_adaptation_field - obsluga
+flagi dsicontinuity oraz w funkcji gst_mpegts_demux_parse_transport_packet - obsluga bitu transport_error_indicator
+
+Dodanie rozszeżenia pliku MOV do odtawzacza multimediów

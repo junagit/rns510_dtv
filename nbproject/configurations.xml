@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <logicalFolder name="libucsi" displayName="libucsi" projectFiles="true">
+          <itemPath>include/libucsi/crc32.h</itemPath>
+          <itemPath>include/libucsi/descriptor.h</itemPath>
+          <itemPath>include/libucsi/endianops.h</itemPath>
+          <itemPath>include/libucsi/section.h</itemPath>
+          <itemPath>include/libucsi/section_buf.h</itemPath>
+          <itemPath>include/libucsi/transport_packet.h</itemPath>
+          <itemPath>include/libucsi/types.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/GstPlayer.h</itemPath>
+        <itemPath>include/MemTrack.h</itemPath>
+        <itemPath>include/audio_player.h</itemPath>
+        <itemPath>include/bitmap.h</itemPath>
+        <itemPath>include/crc32.h</itemPath>
+        <itemPath>include/descriptors.h</itemPath>
+        <itemPath>include/dma_mem_src.h</itemPath>
+        <itemPath>include/dtv_core.h</itemPath>
+        <itemPath>include/dtv_time.h</itemPath>
+        <itemPath>include/dvb_network_info.h</itemPath>
+        <itemPath>include/dvb_pat_data.h</itemPath>
+        <itemPath>include/dvb_pmt_data.h</itemPath>
+        <itemPath>include/dvb_sdt_data.h</itemPath>
+        <itemPath>include/dvb_service.h</itemPath>
+        <itemPath>include/dvb_srvice_pid_list.h</itemPath>
+        <itemPath>include/dvbtcontrol.h</itemPath>
+        <itemPath>include/eit.h</itemPath>
+        <itemPath>include/eit_struct_define.h</itemPath>
+        <itemPath>include/epg_events_list.h</itemPath>
+        <itemPath>include/gpio_ctrl.h</itemPath>
+        <itemPath>include/gst_core.h</itemPath>
+        <itemPath>include/interface.h</itemPath>
+        <itemPath>include/magusoverlay.h</itemPath>
+        <itemPath>include/main_menu.h</itemPath>
+        <itemPath>include/manual_scan.h</itemPath>
+        <itemPath>include/mapm.h</itemPath>
+        <itemPath>include/misc_func.h</itemPath>
+        <itemPath>include/multiplex.h</itemPath>
+        <itemPath>include/overlay.h</itemPath>
+        <itemPath>include/play_ctrl.h</itemPath>
+        <itemPath>include/rc.h</itemPath>
+        <itemPath>include/section.h</itemPath>
+        <itemPath>include/service_list.h</itemPath>
+        <itemPath>include/service_management.h</itemPath>
+        <itemPath>include/sslLcdcApi.h</itemPath>
+        <itemPath>include/struct_define.h</itemPath>
+        <itemPath>include/submenu_scan.h</itemPath>
+        <itemPath>include/tsi.h</itemPath>
+        <itemPath>include/tsi_gst_test.h</itemPath>
+        <itemPath>include/tve.h</itemPath>
+        <itemPath>include/type.h</itemPath>
+        <itemPath>include/uart_io.h</itemPath>
+        <itemPath>include/volume_bar.h</itemPath>
+        <itemPath>include/vpp_external.h</itemPath>
+        <itemPath>include/wait_animation.h</itemPath>
+        <itemPath>include/xml_read_write.h</itemPath>
+      </logicalFolder>
+      <itemPath>include/main_menu_root.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="gst" displayName="gst" projectFiles="true">
+        <itemPath>src/gst/gstqueue.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Language" displayName="Language" projectFiles="true">
+        <itemPath>src/Language/AS_language.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libdtv" displayName="libdtv" projectFiles="true">
+        <logicalFolder name="dtv_usr" displayName="dtv_usr" projectFiles="true">
+          <itemPath>src/libdtv/dtv_usr/dtv_core.cpp</itemPath>
+          <itemPath>src/libdtv/dtv_usr/dtv_usr_epg.cpp</itemPath>
+          <itemPath>src/libdtv/dtv_usr/dtv_usr_record.cpp</itemPath>
+          <itemPath>src/libdtv/dtv_usr/dtv_usr_time.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dvb_time" displayName="dvb_time" projectFiles="true">
+          <itemPath>src/libdtv/dvb_time/dtv_time.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="epg" displayName="epg" projectFiles="true">
+          <itemPath>src/libdtv/epg/eit.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="gst" displayName="gst" projectFiles="true">
+          <itemPath>src/libdtv/gst/dma_mem_src.cpp</itemPath>
+          <itemPath>src/libdtv/gst/gst_core.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="interface" displayName="interface" projectFiles="true">
+          <itemPath>src/libdtv/interface/section.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="misc" displayName="misc" projectFiles="true">
+          <itemPath>src/libdtv/misc/burst.S</itemPath>
+          <itemPath>src/libdtv/misc/crc32.cpp</itemPath>
+          <itemPath>src/libdtv/misc/descriptors.cpp</itemPath>
+          <itemPath>src/libdtv/misc/dvb_srvice_pid_list.cpp</itemPath>
+          <itemPath>src/libdtv/misc/epg_events_list.cpp</itemPath>
+          <itemPath>src/libdtv/misc/misc_func.cpp</itemPath>
+          <itemPath>src/libdtv/misc/service_list.cpp</itemPath>
+          <itemPath>include/version.h</itemPath>
+          <itemPath>src/libdtv/misc/vpu_asm.S</itemPath>
+          <itemPath>src/libdtv/misc/xml_read_write.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="nit" displayName="nit" projectFiles="true">
+          <itemPath>src/libdtv/nit/dvb_network_info.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pat" displayName="pat" projectFiles="true">
+          <itemPath>src/libdtv/pat/dvb_pat_data.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pmt" displayName="pmt" projectFiles="true">
+          <itemPath>src/libdtv/pmt/dvb_pmt_data.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="sdt" displayName="sdt" projectFiles="true">
+          <itemPath>src/libdtv/sdt/dvb_sdt_data.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="service_management"
+                       displayName="service_management"
+                       projectFiles="true">
+          <itemPath>src/libdtv/service_management/service_management.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="ts_live" displayName="ts_live" projectFiles="true">
+          <itemPath>src/libdtv/ts_live/interface.cpp</itemPath>
+          <itemPath>src/libdtv/ts_live/tsi_live.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="main_bar" displayName="main_bar" projectFiles="true">
+        <itemPath>src/QT/main_bar/tv_bar.cpp</itemPath>
+        <itemPath>include/tv_bar.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="media_player"
+                     displayName="media_player"
+                     projectFiles="true">
+        <itemPath>src/media_player/GstPlayer.cpp</itemPath>
+        <itemPath>src/media_player/GstPlayerPipeline.cpp</itemPath>
+        <itemPath>src/media_player/mapm.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="overlay" displayName="overlay" projectFiles="true">
+        <itemPath>src/overlay/overlay.c</itemPath>
+        <itemPath>src/overlay/sslLcdcApi.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="QFastList" displayName="QFastList" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="QT" projectFiles="true">
+        <logicalFolder name="app_settings"
+                       displayName="app_settings"
+                       projectFiles="true">
+          <itemPath>src/QT/app_settings/app_settings.cpp</itemPath>
+          <itemPath>include/app_settings.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QAutoScanThread"
+                       displayName="QAutoScanThread"
+                       projectFiles="true">
+          <itemPath>src/QT/QAutoScanThread/QAutoScanThread.cpp</itemPath>
+          <itemPath>include/QAutoScanThread.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QAutoScanWindow"
+                       displayName="QAutoScanWindow"
+                       projectFiles="true">
+          <itemPath>src/QT/QAutoScanWindow/QAutoScanWindow.cpp</itemPath>
+          <itemPath>include/QAutoScanWindow.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QChannelSwitchThrd"
+                       displayName="QChannelSwitchThrd"
+                       projectFiles="true">
+          <itemPath>src/QT/QChannelSwitchThrd/QChannelSwitchThrd.cpp</itemPath>
+          <itemPath>include/QChannelSwitchThrd.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QFastList" displayName="QFastList" projectFiles="true">
+          <itemPath>src/QT/QFastList/QFastList.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QInitThread" displayName="QInitThread" projectFiles="true">
+          <itemPath>src/QT/QInitThread/QInitThread.cpp</itemPath>
+          <itemPath>include/QInitThread.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMediaPlayer"
+                       displayName="QMediaPlayer"
+                       projectFiles="true">
+          <itemPath>src/QT/QMediaPlayer/QMediaAudioWindow.cpp</itemPath>
+          <itemPath>src/QT/QMediaPlayer/QMediaPlayer.cpp</itemPath>
+          <itemPath>src/QT/QMediaPlayer/QMediaVideoWindow.cpp</itemPath>
+          <itemPath>src/QT/QMediaPlayer/QMpStartThrd.cpp</itemPath>
+          <itemPath>src/QT/QMediaPlayer/file_browser.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMenuInfoWindow"
+                       displayName="QMenuInfoWindow"
+                       projectFiles="true">
+          <itemPath>src/QT/QMenuInfoWindow/QMenuInfoWindow.cpp</itemPath>
+          <itemPath>include/QMenuInfoWindow.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QmenuTvItem" displayName="QmenuTvItem" projectFiles="true">
+          <itemPath>src/QT/QmenuTvItem/QmenuTvItem.cpp</itemPath>
+          <itemPath>include/QmenuTvItem.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="QMessageWindow" projectFiles="true">
+          <itemPath>src/QT/QMessageWindow/QMessageWindow.cpp</itemPath>
+          <itemPath>include/QMessageWindow.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMoreInfoWindow"
+                       displayName="QMoreInfoWindow"
+                       projectFiles="true">
+          <itemPath>src/QT/QMoreInfoWindow/QMoreInfoWindow.cpp</itemPath>
+          <itemPath>include/QMoreInfoWindow.h</itemPath>
+          <itemPath>src/QT/QMoreInfoWindow/QMoreLongInfo.cpp</itemPath>
+          <itemPath>include/QMoreLongInfo.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMostFileBrowser"
+                       displayName="QMostFileBrowser"
+                       projectFiles="true">
+          <itemPath>src/QT/QMostFileBrowser/QMostFileBrowser.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMostInterface"
+                       displayName="QMostInterface"
+                       projectFiles="true">
+          <itemPath>src/QT/QMostInterface/QMediaItem.cpp</itemPath>
+          <itemPath>src/QT/QMostInterface/QMostInterface.cpp</itemPath>
+          <itemPath>src/QT/QMostInterface/QMostItem.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMostMediaPlayer"
+                       displayName="QMostMediaPlayer"
+                       projectFiles="true">
+          <itemPath>src/QT/QMostMediaPlayer/QMostMediaPlayer.cpp</itemPath>
+          <itemPath>include/QMostMediaPlayer.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QMostTvList" displayName="QMostTvList" projectFiles="true">
+          <itemPath>src/QT/QMostTvList/QMostTvList.cpp</itemPath>
+          <itemPath>src/QT/QMostTvList/most_tv_item.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QOtherOptWindow"
+                       displayName="QOtherOptWindow"
+                       projectFiles="true">
+          <itemPath>src/QT/QOtherOptWindow/QOtherOptWindow.cpp</itemPath>
+          <itemPath>include/QOtherOptWindow.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QProgressIndicator"
+                       displayName="QProgressIndicator"
+                       projectFiles="true">
+          <itemPath>src/QT/QProgressIndicator/QProgressIndicator.cpp</itemPath>
+          <itemPath>include/QProgressIndicator.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QRNS_Buttons"
+                       displayName="QRNS_Buttons"
+                       projectFiles="true">
+          <itemPath>src/QT/QRNS_Buttons/QRNS_Buttons.cpp</itemPath>
+          <itemPath>include/QRNS_Buttons.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QScreenScallingWin"
+                       displayName="QScreenScallingWin"
+                       projectFiles="true">
+          <itemPath>src/QT/QScreenScallingWin/QScreenScallingWin.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="qserialdevice-qserialdevice"
+                       displayName="qserialdevice-qserialdevice"
+                       projectFiles="true">
+          <itemPath>src/QT/qserialdevice-qserialdevice/ringbuffer_p.h</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialport.cpp</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialport_p.h</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportengine_p.h</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.cpp</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.h</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportinfo.cpp</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportinfo_p.h</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/serialportinfo_unix.cpp</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.cpp</itemPath>
+          <itemPath>src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QTvServiceList"
+                       displayName="QTvServiceList"
+                       projectFiles="true">
+          <itemPath>src/QT/QTvServiceList/QTvList.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="QTvServiceManager"
+                       displayName="QTvServiceManager"
+                       projectFiles="true">
+          <itemPath>src/QT/QTvServiceManager/QTvServiceManager.cpp</itemPath>
+          <itemPath>include/QTvServiceManager.h</itemPath>
+        </logicalFolder>
+        <itemPath>src/MP3ID3.cpp</itemPath>
+        <itemPath>src/QT/QLabel1.cpp</itemPath>
+        <itemPath>include/QLabel1.h</itemPath>
+        <itemPath>include/headers.h</itemPath>
+        <itemPath>src/QT/main_menu/main_menu.cpp</itemPath>
+        <itemPath>src/QT/main_menu_root.cpp</itemPath>
+        <itemPath>src/QT/main_menu/manual_scan.cpp</itemPath>
+        <itemPath>src/QT/scrolltext.cpp</itemPath>
+        <itemPath>src/QT/main_menu/submenu_scan.cpp</itemPath>
+        <itemPath>src/QT/volume/volume_bar.cpp</itemPath>
+        <itemPath>src/QT/wait_animation.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>src/play_ctrl.cpp</itemPath>
+      <itemPath>src/player_ctrl_most.cpp</itemPath>
+      <itemPath>src/player_ctrl_thrads.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Images.qrc</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src/rc</Elem>
+    <Elem>include</Elem>
+    <Elem>src/libdtv</Elem>
+    <Elem>src/QT/main_bar</Elem>
+    <Elem>src/QT/volume</Elem>
+    <Elem>src/overlay</Elem>
+    <Elem>src/QT/epg_win</Elem>
+    <Elem>src/QT/QProgressIndicator</Elem>
+    <Elem>src/QT/QTvServiceManager</Elem>
+    <Elem>src/QT/QmenuTvItem</Elem>
+    <Elem>src/QT/QOtherOptWindow</Elem>
+    <Elem>src/QT/QAutoScanWindow</Elem>
+    <Elem>src/QT/QDateTimeWindow</Elem>
+    <Elem>src/QT/qserialdevice-qserialdevice</Elem>
+    <Elem>src/QT/QServiceListItem</Elem>
+    <Elem>src/QT/QUserServiceList</Elem>
+    <Elem>src/QT/app_settings</Elem>
+    <Elem>src/QT/QMoreInfoWindow</Elem>
+    <Elem>src/QT/QChannelSwitchThrd</Elem>
+    <Elem>src/QT/QInitThread</Elem>
+    <Elem>src/gst</Elem>
+    <Elem>src/QT/QUpdateWin</Elem>
+    <Elem>src/MOST</Elem>
+    <Elem>src/QT/QMostTvList</Elem>
+    <Elem>src/media_player</Elem>
+    <Elem>src/QT/QMediaPlayer</Elem>
+    <Elem>src/QT/QSlide-0.1</Elem>
+    <Elem>src/QT/QScreenScallingWin</Elem>
+    <Elem>src/Language</Elem>
+    <Elem>src/QT/QMostInterface</Elem>
+    <Elem>src/QT/QMostMediaPlayer</Elem>
+    <Elem>src/QT/QMostFileBrowser</Elem>
+    <Elem>src/QT/QMostMediaCtrlList</Elem>
+    <Elem>src/QT/QAutoScanThread</Elem>
+    <Elem>src/QT/QMenuInfoWindow</Elem>
+    <Elem>src/QT/QTvServiceList</Elem>
+    <Elem>src/QT/Qlistwidgetlist2</Elem>
+    <Elem>src/QT/QStringListModel</Elem>
+    <Elem>src/QT/QTvSelectWindow</Elem>
+    <Elem>src/QT/NewList</Elem>
+    <Elem>src/QT/QFastList</Elem>
+    <Elem>src/QT/QRNS_Buttons</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>GNU_1|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui</modules>
+        <mocDir>moc</mocDir>
+        <rccDir>qrc</rccDir>
+        <defs>
+          <Elem>"CONFIG +=link_pkgconfig"</Elem>
+          <Elem>PKGCONFIG = gstreamer-0.10</Elem>
+          <Elem>LIBS += -L./lib</Elem>
+          <Elem>QMAKE_CXXFLAGS+=-Wno-write-strings -Wno-multichar -Wall</Elem>
+          <Elem>QMAKE_LDFLAGS +=-liconv -lucsi -lgstapp-0.10 -lgstbase-0.10</Elem>
+          <Elem>QMAKE_CFLAGS +=-DTSI_LIVE -I/usr/local/include/gstreamer-0.10 -Iinclude -Wall</Elem>
+          <Elem>HEADERS += include/most_tv_item.h</Elem>
+          <Elem>QMAKE_CFLAGS_RELEASE+=-O2</Elem>
+          <Elem>SOURCES +=src/libdtv/misc/burst.S</Elem>
+          <Elem>HEADERS += include/serialport.h</Elem>
+          <Elem>HEADERS += include/QMediaItem.h</Elem>
+          <Elem>HEADERS += include/MP3ID3.h</Elem>
+          <Elem>HEADERS += include/QMostTvList.h</Elem>
+          <Elem>SOURCES +=src/libdtv/misc/vpu_asm.S</Elem>
+          <Elem>HEADERS += include/MP3Info.h</Elem>
+          <Elem>HEADERS += include/scrolltext.h</Elem>
+          <Elem>HEADERS += include/QScreenScallingWin.h</Elem>
+          <Elem>HEADERS += include/AS_Language.h</Elem>
+          <Elem>HEADERS += include/QMostItem.h</Elem>
+          <Elem>HEADERS += include/QMostInterface.h</Elem>
+          <Elem>HEADERS += include/QMostFileBrowser.h</Elem>
+          <Elem>HEADERS += include/QMpStartThrd.h</Elem>
+          <Elem>HEADERS += include/QMediaAudioWindow.h</Elem>
+          <Elem>HEADERS += include/file_browser.h</Elem>
+          <Elem>HEADERS += include/QMediaPlayer.h</Elem>
+          <Elem>HEADERS += include/QMediaVideoWindow.h</Elem>
+          <Elem>HEADERS += include/QFastList.h</Elem>
+          <Elem>HEADERS += include/QTvList.h</Elem>
+        </defs>
+      </qt>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <standard>4</standard>
+          <incDir>
+            <pElem>/usr/local/include/gstreamer-0.10</pElem>
+            <pElem>include</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>/usr/SSD1938/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/libxml2/libxml</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DTV_CORE_DEBUG_T</Elem>
+            <Elem>DTV_CORE_ERROR_DEBUG_T</Elem>
+            <Elem>ENABLE_MOST</Elem>
+            <Elem>SSL_GST_PORT_VQ</Elem>
+            <Elem>SSL_GST_PORT_VQ_AQBASE=500</Elem>
+            <Elem>SSL_GST_VPPINSINK</Elem>
+            <Elem>SSL_GST_VPPINSINK_MAX_LATENESS_IN_MS=80</Elem>
+            <Elem>TSI_LIVE</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerLibLibItem>dibcomcontrol</linkerLibLibItem>
+            <linkerLibLibItem>gpioctrl</linkerLibLibItem>
+            <linkerLibLibItem>tsi</linkerLibLibItem>
+            <linkerLibLibItem>ucsi</linkerLibLibItem>
+            <linkerOptionItem>`pkg-config --libs gstreamer-0.10`</linkerOptionItem>
+            <linkerLibLibItem>iconv</linkerLibLibItem>
+            <linkerLibLibItem>gstbase-0.10</linkerLibLibItem>
+            <linkerOptionItem>-lgstapp-0.10</linkerOptionItem>
+            <linkerOptionItem>-lid3tag</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Images.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/GstPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/MemTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QAutoScanThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QAutoScanWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QChannelSwitchThrd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QInitThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QLabel1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMenuInfoWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMessageWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMoreInfoWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMoreLongInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMostMediaPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QOtherOptWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QProgressIndicator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QRNS_Buttons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QTvServiceManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QmenuTvItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/app_settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/audio_player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/bitmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/descriptors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dma_mem_src.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dtv_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dtv_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_network_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_pat_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_pmt_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_sdt_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_service.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_srvice_pid_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvbtcontrol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/eit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/eit_struct_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/epg_events_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/gpio_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/gst_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/descriptor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/endianops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/section_buf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/transport_packet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/magusoverlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/main_menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/main_menu_root.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/manual_scan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mapm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/misc_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/multiplex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/overlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/play_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/service_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/service_management.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sslLcdcApi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/struct_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/submenu_scan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tsi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tsi_gst_test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tv_bar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tve.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/uart_io.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/volume_bar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vpp_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/wait_animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/xml_read_write.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Language/AS_language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MP3ID3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QAutoScanThread/QAutoScanThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QAutoScanWindow/QAutoScanWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QChannelSwitchThrd/QChannelSwitchThrd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QFastList/QFastList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QInitThread/QInitThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QLabel1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaAudioWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaPlayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaVideoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMpStartThrd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/file_browser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMenuInfoWindow/QMenuInfoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMessageWindow/QMessageWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMoreInfoWindow/QMoreInfoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMoreInfoWindow/QMoreLongInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostFileBrowser/QMostFileBrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMediaItem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMostInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMostItem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostMediaPlayer/QMostMediaPlayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostTvList/QMostTvList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QMostTvList/most_tv_item.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QOtherOptWindow/QOtherOptWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QProgressIndicator/QProgressIndicator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QRNS_Buttons/QRNS_Buttons.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QScreenScallingWin/QScreenScallingWin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QTvServiceList/QTvList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QTvServiceManager/QTvServiceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QmenuTvItem/QmenuTvItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/app_settings/app_settings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/main_bar/tv_bar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/main_menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/manual_scan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/submenu_scan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu_root.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ringbuffer_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialport_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/scrolltext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/volume/volume_bar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/wait_animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_epg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_record.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_time.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/dvb_time/dtv_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/epg/eit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/gst/dma_mem_src.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/gst/gst_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/interface/section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/burst.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/crc32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/descriptors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/dvb_srvice_pid_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/epg_events_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/misc_func.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/service_list.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/vpu_asm.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/xml_read_write.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/nit/dvb_network_info.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/pat/dvb_pat_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/pmt/dvb_pmt_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/sdt/dvb_sdt_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/service_management/service_management.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/ts_live/interface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/ts_live/tsi_live.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/media_player/GstPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/media_player/GstPlayerPipeline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/media_player/mapm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/overlay/overlay.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/overlay/sslLcdcApi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/play_ctrl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player_ctrl_most.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player_ctrl_thrads.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>ARM11_SSD1938|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </compileType>
+      <item path="Images.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/GstPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/MemTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QAutoScanThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QAutoScanWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QChannelSwitchThrd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QInitThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QLabel1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMenuInfoWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMessageWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMoreInfoWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMoreLongInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QMostMediaPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QOtherOptWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QProgressIndicator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QRNS_Buttons.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QTvServiceManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/QmenuTvItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/app_settings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/audio_player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/bitmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/descriptors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dma_mem_src.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dtv_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dtv_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_network_info.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_pat_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_pmt_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_sdt_data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_service.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvb_srvice_pid_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/dvbtcontrol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/eit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/eit_struct_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/epg_events_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/gpio_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/gst_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/headers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/crc32.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/descriptor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/endianops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/section_buf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/transport_packet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/libucsi/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/magusoverlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/main_menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/main_menu_root.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/manual_scan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mapm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/misc_func.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/multiplex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/overlay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/play_ctrl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/rc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/section.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/service_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/service_management.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/sslLcdcApi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/struct_define.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/submenu_scan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tsi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tsi_gst_test.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tv_bar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/tve.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/uart_io.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/volume_bar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vpp_external.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/wait_animation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/xml_read_write.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Language/AS_language.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MP3ID3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QAutoScanThread/QAutoScanThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QAutoScanWindow/QAutoScanWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QChannelSwitchThrd/QChannelSwitchThrd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QFastList/QFastList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QInitThread/QInitThread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QLabel1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaAudioWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaPlayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMediaVideoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/QMpStartThrd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMediaPlayer/file_browser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMenuInfoWindow/QMenuInfoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMessageWindow/QMessageWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMoreInfoWindow/QMoreInfoWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMoreInfoWindow/QMoreLongInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostFileBrowser/QMostFileBrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMediaItem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMostInterface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostInterface/QMostItem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostMediaPlayer/QMostMediaPlayer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QMostTvList/QMostTvList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QMostTvList/most_tv_item.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QOtherOptWindow/QOtherOptWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QProgressIndicator/QProgressIndicator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QRNS_Buttons/QRNS_Buttons.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QScreenScallingWin/QScreenScallingWin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QTvServiceList/QTvList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/QTvServiceManager/QTvServiceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/QmenuTvItem/QmenuTvItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/app_settings/app_settings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/main_bar/tv_bar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/main_menu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/manual_scan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu/submenu_scan.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/main_menu_root.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ringbuffer_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialport_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportengine_p_unix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo_p.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/serialportinfo_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/QT/qserialdevice-qserialdevice/ttylocker_p_unix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/QT/scrolltext.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/volume/volume_bar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/QT/wait_animation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/gst/gstqueue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_epg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_record.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/dtv_usr/dtv_usr_time.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/dvb_time/dtv_time.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/epg/eit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/gst/dma_mem_src.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/gst/gst_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/interface/section.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/burst.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/crc32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/descriptors.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/dvb_srvice_pid_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/epg_events_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/misc_func.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/service_list.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/vpu_asm.S" ex="false" tool="4" flavor2="0">
+      </item>
+      <item path="src/libdtv/misc/xml_read_write.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/nit/dvb_network_info.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/pat/dvb_pat_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/pmt/dvb_pmt_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/sdt/dvb_sdt_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/service_management/service_management.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/libdtv/ts_live/interface.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/libdtv/ts_live/tsi_live.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/media_player/GstPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/media_player/GstPlayerPipeline.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/media_player/mapm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/overlay/overlay.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/overlay/sslLcdcApi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/play_ctrl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player_ctrl_most.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/player_ctrl_thrads.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

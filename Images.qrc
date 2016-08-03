@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RCC version="1.0">
+    <qresource>
+        <file>img/Info-icon.png</file>
+        <file>img/warning72x72.png</file>
+        <file>img/mute64x64.png</file>
+        <file>img/folder.xpm</file>
+        <file>img/background_mp.png</file>
+        <file>img/tv_list.png</file>
+        <file>img/styl.css</file>
+        <file>img/file.xpm</file>
+        <file>img/movie.xpm</file>
+        
+        <file>img/border.xpm</file>
+        <file>img/border2.xpm</file>
+        
+        <file>img/border_small.xpm</file>
+        <file>img/scr_adj.png</file>
+        <file>img/Przesuniecie.xpm</file>
+        <file>img/Skala.xpm</file>
+        <file>img/checkbox_checked.png</file>
+        <file>img/checkbox_unchecked.png</file>
+        <file>img/Znak_SD1.png</file>
+
+        <file>img/Znak_SD11.png</file>
+        <file>img/Znak_USB1.png</file>
+        
+        <file>img/Lista_7a_Skala.png</file>
+        <file>img/Lista_7a_Skala2.png</file>
+        
+        <file>img/Czolowka2b.png</file>
+        <file>img/Czolowka3b.png</file>
+        
+        <file>img/player/fb_normal.png</file>
+        <file>img/player/fb_selected.png</file>
+        
+        <file>img/player/ff_normal.png</file>
+        <file>img/player/ff_selected.png</file>
+        
+        <file>img/player/pause_normal.png</file>
+        <file>img/player/pause_selected.png</file>
+        
+        <file>img/player/play_normal.png</file>
+        <file>img/player/play_selected.png</file>
+        
+        <file>img/player/stop_normal.png</file>
+        <file>img/player/stop_selected.png</file>
+        <file>img/player/audio_background.png</file>
+
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or1.xpm</file>
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or2.xpm</file>
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or3.xpm</file>
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or4.xpm</file>
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or5.xpm</file>
+        <file>img/Labelki_wyboru/just/Lista_5a_wyb_or6.xpm</file>
+        
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b1.xpm</file>
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b2.xpm</file>
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b3.xpm</file>
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b4.xpm</file>
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b5.xpm</file>
+        <file>img/Labelki_wyboru/Lista_5a_wyb_b6.xpm</file>
+        
+    </qresource>
+</RCC>
